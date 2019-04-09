@@ -1,0 +1,36 @@
+<!--pages/english_index/english_index.wxml-->
+<view class="container">
+  <view class='head'>
+    <navigator class='head_text_then' open-type='redirect'url='../index/index'>中文/</navigator>
+    <text class='head_text_now'>English</text>
+  </view>
+  <view class="toolinfo">
+    <text class="toolinfo_name">MedicalQA</text>
+    <text class="toolinfo_description">A question answer demo based medical KB</text>
+    <navigator url='../answerType/answerType'>
+      <text class="toolinfo_description">*Chick to look question types</text>
+    </navigator>
+  </view>
+
+  <view class="input">
+
+    <view class="search_arr">
+      <input class="search_text" placeholder-class="search_text_holder" value='{{defult_question}}' placeholder="Input your question：" bindinput="inputquestion" />
+      <icon class="searchicon" size='22' bindtap='searchChick' type='search'></icon>
+    </view>
+
+    <view class="default_ques">
+      <text>For example:</text>
+      <button class='default_ques_button' bindtap='defultQuesChick'>What to eat for HCC？</button>
+    </view>
+  </view>
+
+  <view class="output">
+    <text>{{infor}}</text>
+  </view>
+
+  <view class="usermotto">
+    <text>DUTIR</text>
+    <text>ir.dlut.edu.cn</text>
+  </view>
+</view>

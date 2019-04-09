@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='head'>
+    <text class='head_text_now'>中文</text>
+    <navigator class='head_text_then' open-type='redirect' url='../english_index/english_index'>/English</navigator>
+  </view>
+  <view class="toolinfo">
+    <text class="toolinfo_name">MedicalQA</text>
+    <text class="toolinfo_description">一个基于中文医学知识图谱的问答平台</text>
+    <navigator url='../answerType/answerType'>
+      <text class="toolinfo_description">*点击查看可回答的问题类型</text>
+    </navigator>
+  </view>
+
+  <view class="input">
+
+    <view class="search_arr">
+      <input class="search_text" placeholder-class="search_text_holder" value='{{defult_question}}' placeholder="请输入问题：" bindinput="inputquestion" />
+      <icon class="searchicon" size='22' bindtap='searchChick' type='search'></icon>
+    </view>
+
+    <view class="default_ques">
+      <text decode="{{true}}" >示例问题:&nbsp;&nbsp;</text>
+      <text class='default_ques_button' bindtap='defultQuesChick'>肝病该吃什么药？</text>
+    </view>
+  </view>
+
+  <view class="output">
+    <text>{{infor}}</text>
+  </view>
+
+  <view class="usermotto">
+    <text>大连理工大学信息检索研究室</text>
+    <text>ir.dlut.edu.cn</text>
+  </view>
+</view>

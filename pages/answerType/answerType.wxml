@@ -1,0 +1,16 @@
+<!--pages/answerType/answerType.wxml-->
+<view class='answer_type'>
+  <view class='answer_type_list'>
+    <text>可回答问题类型：</text>
+    <text>1 疾病-药品：肝病吃点啥药？</text>
+    <text>2 疾病-病因：为啥会失眠？</text>
+    <text>3 疾病-食物：耳鸣吃点啥好？</text>
+    <text>4 疾病-检查：肝病怎么检查？</text>
+    <text>5 疾病-症状：胃癌有哪些表现？</text>
+    <text>...</text>
+    <text>   </text>
+    <navigator url='../index/index'>
+      <text>*返回主页【Chick】</text>
+    </navigator>
+  </view>
+</view>

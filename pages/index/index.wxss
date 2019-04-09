@@ -1,0 +1,99 @@
+/**index.wxss**/
+.container {
+  padding: 0rpx
+}
+
+.head {
+  margin:0rpx 0rpx 110rpx 500rpx;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+.head_text_now{
+  font-weight: 700;
+}
+.head_text_then{
+  font-weight: 400;
+  color: rgb(145, 142, 142);
+}
+
+.toolinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*居中*/
+  margin-bottom: 60rpx;
+  min-width: 550rpx;
+  border: 3rpx solid rgb(255, 255, 255); /*边框*颜色**/
+  border-radius: 40rpx;   /*边框的半径**/
+  background-color: #ebf8e1;
+}
+.toolinfo_name {
+  color: rgb(20, 20, 20);
+  font-size: 60rpx;
+  margin-top: 15rpx;
+  margin-bottom: 10rpx;
+}
+.toolinfo_description {
+  color: rgb(20, 20, 20);
+  font-size: 28rpx;
+  align-items: center;
+}
+
+.input{  
+  display: flex;  
+  flex-direction: column; 
+}  
+.search_arr {  /*搜索框*/
+  display: flex;  
+  flex-direction: row; 
+}  
+.search_text{   /*搜索框内文字*/
+  border: 3rpx solid rgb(119, 118, 118); /*边框*颜色**/
+  border-radius: 12rpx;   /*边框的半径**/
+  margin-left: 10rpx;  
+  min-height: 65rpx;
+  font-size: 40rpx;
+  color: rgb(77, 76, 76);
+} 
+.search_text_holder{
+  margin: 5rpx 5rpx 5rpx 5rpx;  
+}
+.searchicon {  /*搜索图标*/  
+  margin: 15rpx 5rpx 5rpx 5rpx; 
+  width: 70rpx; 
+  height: 70rpx;  
+  text-align: center; 
+  color:rgb(27, 9, 9); 
+} 
+.default_ques {  /*示例问题框*/
+  margin: 25rpx 10rpx 10rpx 20rpx; 
+  display: flex;  
+  flex-direction: row; 
+  font-size: 32rpx;
+}  
+.default_ques_button {  /*示例问题按钮*/
+  border: 3rpx solid rgb(255, 255, 255); /*边框*颜色**/
+  border-radius: 12rpx;   /*边框的半径*/
+  align-items: center;
+  background-color: #e4f8cc;
+}  
+
+.output{
+  margin-top:20rpx;
+  border: 3rpx solid rgb(255, 255, 255); /*边框*颜色**/
+  border-radius: 44rpx;   /*边框的半径**/
+  background-color: #f5f1f7;
+  min-height: 350rpx;
+  min-width: 550rpx;
+  text-align: center;
+  font-size: 30rpx;
+  
+}
+
+.usermotto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*居中*/
+  font-size: 25rpx;
+  margin-top: 80rpx;
+}
